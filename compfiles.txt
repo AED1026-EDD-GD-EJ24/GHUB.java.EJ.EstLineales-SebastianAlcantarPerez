@@ -1,5 +1,3 @@
 ./miTest/AppTest.java
-./miPrincipal/Principal.java
-./miPrincipal/AppRational.java
-./miPrincipal/Rational.java
-./miPrincipal/PosicionIlegalException.java
+./miPrincipal/Pila.java
+./miPrincipal/Nodo.java
