@@ -13,6 +13,7 @@ public class Principal {
             System.out.println(" 1) Pila");
             System.out.println(" 2) Stack");
             System.out.println(" 3) Delimitadores");
+            System.out.println(" 4) Cola");
 
             System.out.println();
 
@@ -29,6 +30,8 @@ public class Principal {
                 case 3:
                    DemoDelimitadores.menu();
                    break;
+                case 4:
+                    DemoCola.menu();
                 case 0:
                     System.out.println("ADIOS!");
                     consola.close();
