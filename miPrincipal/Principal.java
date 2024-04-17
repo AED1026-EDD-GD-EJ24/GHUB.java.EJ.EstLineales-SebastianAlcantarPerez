@@ -19,6 +19,9 @@ public class Principal {
             System.out.println(" 7) Tablas de Dispersion");
             System.out.println(" 8) Estructura Combinada");
             System.out.println(" 9) Lista simplemente enlazada");
+            System.out.println("10) ArrayList y LinkedList");
+            System.out.println("11) ArrayList de Persona");
+            System.out.println("12) LinkedList Cuadrúpedos");
 
 
             System.out.println();
@@ -52,6 +55,11 @@ public class Principal {
                 case 9:
                      DemoListaSimple.menu();
                      break;
+                case 10:
+                     DemoArrayListyLinkedList.menu();
+                     break;
+               case 11:
+                     DemoArrayListPersona.menu();
                 case 0:
                     System.out.println("ADIOS!");
                     //consola.close();
