@@ -46,8 +46,14 @@ public class DemoLinkedListCuadrupedos {
                         break;
                     default:
                         break;
+
                 }
             }
+            System.out.println("Resumen");
+            System.out.println("Leones: "+leonCount);
+            System.out.println("Gatos: "+gatoCount);
+            System.out.println("Perro: "+perroCount);
+            System.out.println("Elefantes: "+elefanteCount);
         }catch(Exception e){
             e.printStackTrace();
         }
