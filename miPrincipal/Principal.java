@@ -23,7 +23,7 @@ public class Principal {
             System.out.println("11) ArrayList de Persona");
             System.out.println("12) LinkedList Cuadrúpedos");
             System.out.println("13) Lista de cotnactos");
-
+            System.out.println("14) lista doblemente ligada");
 
             System.out.println();
 
@@ -67,6 +67,8 @@ public class Principal {
                case 13:
                      DemoListaDeContactos.menu();
                      break;
+               case 14:
+                     DemoListaDobleLigada.menu();
                 case 0:
                     System.out.println("ADIOS!");
                     //consola.close();

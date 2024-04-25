@@ -1,25 +1,29 @@
 package miPrincipal;
 
 public class Contacto {
-    private String nombre;
+    private String nombres;
     private String apellidos;
     private String direccion;
     private String correo;
     private String telefono;
-    
-    public Contacto(String nombre, String apellidos, String direccion, String correo, String telefono, String celular) {
-        this.nombre = nombre;
+    private String celular;
+    //Metodos
+    //Constructos
+    public Contacto(String nombres, String apellidos, String direccion,
+            String correo, String telefono, String celular) {
+        this.nombres = nombres;
         this.apellidos = apellidos;
         this.direccion = direccion;
         this.correo = correo;
         this.telefono = telefono;
         this.celular = celular;
     }
-    public String getNombre() {
-        return nombre;
+    //getter y setter
+    public String getNombres() {
+        return nombres;
     }
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
     }
     public String getApellidos() {
         return apellidos;
@@ -51,12 +55,12 @@ public class Contacto {
     public void setCelular(String celular) {
         this.celular = celular;
     }
-    private String celular;
-
     @Override
     public String toString() {
-        return nombre + " " + apellidos +" "+ direccion +" "+ correo+" " + telefono + " " + celular "\n"; 
+        return nombres + " " + apellidos + " " + direccion + " "
+                + correo + " " + telefono + " " + celular + "\n";
     }
+    
     
     
 }
